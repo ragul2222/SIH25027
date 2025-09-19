@@ -1,0 +1,32 @@
+{
+  "name": "ayurveda-traceability-chaincode",
+  "version": "1.0.0",
+  "description": "Hyperledger Fabric chaincode for Ayurvedic herb traceability system",
+  "main": "index.js",
+  "scripts": {
+    "start": "fabric-chaincode-node start",
+    "test": "nyc mocha test --recursive",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "fabric-contract-api": "^2.4.1",
+    "fabric-shim": "^2.4.1",
+    "joi": "^17.6.0",
+    "uuid": "^8.3.2",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "mocha": "^9.1.0",
+    "nyc": "^15.1.0"
+  },
+  "keywords": [
+    "hyperledger",
+    "fabric",
+    "chaincode",
+    "ayurveda",
+    "traceability"
+  ],
+  "author": "Supply Chain Team",
+  "license": "Apache-2.0"
+}
